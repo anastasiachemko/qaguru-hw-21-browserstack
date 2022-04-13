@@ -28,7 +28,7 @@ public class AndroidSelenideTests extends TestBase {
     }
 
     @Test
-    void checkContentTest() {
+    void onboardingStepsTest() {
 
         step("Check that the text 'The Free Encyclopedia …in over 300 languages' is visible", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/primaryTextView"))
